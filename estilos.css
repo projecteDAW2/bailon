@@ -1,0 +1,38 @@
+#img_logo{
+    display: block;
+    margin: auto;
+}
+#pagina{
+    background-color: #8c8c8c;
+}
+body{
+    background-image: url(./joc/cep_colors.jfif);
+}
+#juego{
+    height: 70%;
+    width: 70%;
+}
+canvas{
+    margin-left: 5%;
+}
+#volver:hover{
+    opacity: 0.5;
+
+}
+.base-timer {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.base-timer-label{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #bea4cc;
+}
